@@ -144,17 +144,17 @@ class _HomePageState extends State<HomePage> {
                   ),
               ],
             ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {
-      //     Navigator.push(
-      //       context,
-      //       MaterialPageRoute(builder: (context) => const TambahPengguna()),
-      //     );
-      //   },
-      //   backgroundColor: Colors.green, // Warna baru untuk FloatingActionButton
-      //   tooltip: 'Tambah Pengguna',
-      //   child: const Icon(Icons.add),
-      // ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const TambahPengguna()),
+          );
+        },
+        backgroundColor: Colors.green, // Warna baru untuk FloatingActionButton
+        tooltip: 'Tambah Pengguna',
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
